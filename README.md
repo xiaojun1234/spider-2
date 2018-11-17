@@ -54,7 +54,7 @@ print(response.text)
 <pre>
 import requests
 headers = {
-  'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:63.0) Gecko/20100101 Firefox/63.0'
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:63.0) Gecko/20100101 Firefox/63.0'
 }
 response = requests.get("https://www.zhihu.com/explore",headers=headers)
 print(response.text)
